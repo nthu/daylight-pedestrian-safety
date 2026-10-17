@@ -1,0 +1,43 @@
+{
+  "purpose": "Document why Alaska was outside the prespecified main geography and quantify an inclusion sensitivity.",
+  "original_geographic_target": "Contiguous United States and District of Columbia.",
+  "exclusion_stage": "Whole-jurisdiction geographic target, before focal-window outcome extraction.",
+  "not_excluded_because_of_DST_observance": true,
+  "source_records_2001_2024": 1607,
+  "basic_date_time_coordinate_timezone_eligible_records": 1473,
+  "fatal_pedestrian_crashes_in_basic_eligible_records": 238,
+  "latitude_range_degrees": [
+    52.22266389,
+    71.32400278
+  ],
+  "records_north_of_arctic_circle": 18,
+  "observed_IANA_zones_followed_federal_transition_schedule_2001_2024": true,
+  "main_three_center_event_appearances": 631,
+  "main_three_center_appearances_with_undefined_apparent_horizon_sunrise_or_sunset": 0,
+  "five_center_event_appearances": 1117,
+  "five_center_appearances_with_undefined_apparent_horizon_sunrise_or_sunset": 1,
+  "interpretation": "The main three-center window was technically assignable for observed Alaska event appearances. Alaska was excluded because the prespecified target and solar-validation domain were contiguous-US, not because Alaska does not observe DST or because the main-window solar event was generally undefined.",
+  "inclusion_sensitivity": {
+    "pedestrian_evening": [
+      0.15377,
+      0.083062,
+      0.284668
+    ],
+    "pedestrian_morning": [
+      0.206313,
+      0.086285,
+      0.493305
+    ],
+    "pedestrian_vs_other_evening": [
+      0.210661,
+      0.114683,
+      0.38696
+    ],
+    "pedestrian_vs_other_morning": [
+      0.216369,
+      0.083418,
+      0.561218
+    ]
+  },
+  "alaska_only_full_adjusted_models": "Unsupported because the narrow-window Alaska tables were too sparse for the full high-dimensional model."
+}

@@ -1,0 +1,29 @@
+endpoint,band,ratio,low,high,p_value_year_jackknife,year_count,county_count,leaveyear_min_ratio,leaveyear_max_ratio,is_valid_independent_pedestrian_data,estimator
+all_crashes,evening,0.7224206821738226,0.5828209493332951,0.8954579320278335,0.004940785260376409,21,82,0.6896270788861771,0.7542028344865949,False,county-stratified MH log cross-product with symmetric fake-date correction
+all_crashes,morning,0.9590020662339309,0.7768592478445626,1.1838501834053772,0.6828690727819182,21,82,0.913984087161864,1.0033879777930732,False,county-stratified MH log cross-product with symmetric fake-date correction
+injury_or_fatal_crashes,evening,0.6416312774896311,0.43625310548473606,0.9436968839351461,0.026287632946866077,21,82,0.5859046332875169,0.6884519910687819,False,county-stratified MH log cross-product with symmetric fake-date correction
+injury_or_fatal_crashes,morning,1.3106781983286835,0.8629235084571578,1.9907643293268933,0.19203620634296328,21,82,1.2184568552446746,1.4569484764998453,False,county-stratified MH log cross-product with symmetric fake-date correction
+nonfatal_injury_crashes,evening,0.6626431567425273,0.44895270498190054,0.9780450107665654,0.03933304784469754,21,82,0.6078178168218513,0.7147708344688884,False,county-stratified MH log cross-product with symmetric fake-date correction
+nonfatal_injury_crashes,morning,1.2890667242189935,0.8392539231047127,1.979964553923639,0.231439042594743,21,82,1.1933359788375197,1.4085602698101092,False,county-stratified MH log cross-product with symmetric fake-date correction
+property_damage_only_crashes,evening,0.7949083361405289,0.6220330705384629,1.0158290496013627,0.06503405977055686,21,82,0.7532079308538524,0.8343960916907034,False,county-stratified MH log cross-product with symmetric fake-date correction
+property_damage_only_crashes,morning,0.8598394869574538,0.6605446757998906,1.1192641019110003,0.2462083160748721,21,82,0.8057921588087302,0.9129530419118578,False,county-stratified MH log cross-product with symmetric fake-date correction
+all_crashes,negative_control_night_vs_noon,0.9796655319311267,0.6906588875302683,1.3896071878345826,0.9036531157419136,21,82,,,False,"conditional count allocation, night vs noon"
+injury_or_fatal_crashes,negative_control_night_vs_noon,0.826073069759164,0.5257498167583766,1.297949509119741,0.3882186281836873,21,82,,,False,"conditional count allocation, night vs noon"
+nonfatal_injury_crashes,negative_control_night_vs_noon,0.8441388824391608,0.5393918342618176,1.3210627369263397,0.4392778542621598,21,82,,,False,"conditional count allocation, night vs noon"
+property_damage_only_crashes,negative_control_night_vs_noon,1.055310972866666,0.7200807471744,1.5466060630323464,0.7719371217610187,21,82,,,False,"conditional count allocation, night vs noon"
+all_crashes,evening__omit_2019,0.7374549389588829,0.5903387917163851,0.9212333572280731,0.009916753821789154,20,82,,,False,exploratory county-stratified MH with year deletion
+all_crashes,evening__omit_2020_2021,0.746546997594098,0.5998718656416653,0.92908577904483,0.011651033362513117,19,82,,,False,exploratory county-stratified MH with year deletion
+all_crashes,evening__reportbeam_2004_2018,0.7553405017876136,0.5959792154727364,0.957314045235968,0.023586737388291142,15,82,,,False,exploratory county-stratified MH with year deletion
+all_crashes,evening__ecrash_2020_2024,0.685673985382684,0.3138844441037111,1.497840441163215,0.2510535016244732,5,82,,,False,exploratory county-stratified MH with year deletion
+all_crashes,morning__omit_2019,0.9301101982576088,0.7509412673402162,1.1520274867393456,0.4871167457487199,20,82,,,False,exploratory county-stratified MH with year deletion
+all_crashes,morning__omit_2020_2021,0.9218686086493011,0.7482556474442494,1.1357638723018362,0.4234325672449385,19,82,,,False,exploratory county-stratified MH with year deletion
+all_crashes,morning__reportbeam_2004_2018,0.9612364667293054,0.7748063964902953,1.1925244153322012,0.7000373032903554,15,82,,,False,exploratory county-stratified MH with year deletion
+all_crashes,morning__ecrash_2020_2024,0.831912387259295,0.3720593323864058,1.860128640333888,0.5599531221663901,5,82,,,False,exploratory county-stratified MH with year deletion
+nonfatal_injury_crashes,evening__omit_2019,0.658102157230975,0.4349564664019196,0.995728268934069,0.04790123072238836,20,82,,,False,exploratory county-stratified MH with year deletion
+nonfatal_injury_crashes,evening__omit_2020_2021,0.7381399005381899,0.49586891398320215,1.0987793293793489,0.12623836228303228,19,82,,,False,exploratory county-stratified MH with year deletion
+nonfatal_injury_crashes,evening__reportbeam_2004_2018,0.7349715933637131,0.4623005659513772,1.1684676222274175,0.17620526181733448,15,82,,,False,exploratory county-stratified MH with year deletion
+nonfatal_injury_crashes,evening__ecrash_2020_2024,0.438844396688138,0.10843914593309131,1.775967551638626,0.17723178292896216,5,82,,,False,exploratory county-stratified MH with year deletion
+nonfatal_injury_crashes,morning__omit_2019,1.4085602698101092,0.9237176290117823,2.147888024839483,0.10555907710561427,20,82,,,False,exploratory county-stratified MH with year deletion
+nonfatal_injury_crashes,morning__omit_2020_2021,1.2004757385243097,0.7578570506904703,1.9016013606688593,0.41490905195006117,19,82,,,False,exploratory county-stratified MH with year deletion
+nonfatal_injury_crashes,morning__reportbeam_2004_2018,1.2842197008011218,0.7262089650866406,2.27099955965011,0.362584198576098,15,82,,,False,exploratory county-stratified MH with year deletion
+nonfatal_injury_crashes,morning__ecrash_2020_2024,2.0214157608231744,1.2968573121228189,3.1507873995912337,0.011668698745765352,5,82,,,False,exploratory county-stratified MH with year deletion

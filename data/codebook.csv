@@ -1,0 +1,271 @@
+file,variable,dtype_sample,description
+calendar.csv,days,int64,Number of included dates.
+calendar.csv,end,object,"Last included calendar date, inclusive."
+calendar.csv,first_week_and_switch_day_excluded,bool,Whether the statutory change day and first post-change week are excluded.
+calendar.csv,period,object,Before or after period within a comparison centre.
+calendar.csv,season,object,Spring or autumn statutory clock transition.
+calendar.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+calendar.csv,start,object,"First included calendar date, inclusive."
+calendar.csv,year,int64,Policy-transition year associated with the comparison calendar.
+mississippi.csv.gz,band,object,"Focal, reference, whole-day, or control clock band."
+mississippi.csv.gz,county_key,object,Standardised Mississippi county name used as the fixed geographic unit.
+mississippi.csv.gz,endpoint,object,Crash outcome definition.
+mississippi.csv.gz,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+mississippi.csv.gz,period,object,Before or after period within a comparison centre.
+mississippi.csv.gz,season,object,Spring or autumn statutory clock transition.
+mississippi.csv.gz,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+mississippi.csv.gz,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+mississippi.csv.gz,year,int64,Policy-transition year associated with the comparison calendar.
+national.csv.gz,band,object,"Focal, reference, whole-day, or control clock band."
+national.csv.gz,endpoint,object,Crash outcome definition.
+national.csv.gz,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+national.csv.gz,geo,object,Geographic analysis definition used by the corresponding specification.
+national.csv.gz,period,object,Before or after period within a comparison centre.
+national.csv.gz,season,object,Spring or autumn statutory clock transition.
+national.csv.gz,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+national.csv.gz,slot_minutes,int64,Duration of the clock interval represented by the cell.
+national.csv.gz,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+national.csv.gz,window_days,int64,Number of calendar days in the before or after period.
+national.csv.gz,year,int64,Policy-transition year associated with the comparison calendar.
+primary_tables.csv,band,object,"Focal, reference, whole-day, or control clock band."
+primary_tables.csv,dark_post,int64,Midnight-reference count after the comparison centre.
+primary_tables.csv,dark_pre,int64,Midnight-reference count before the comparison centre.
+primary_tables.csv,focal_post,int64,Focal-band count after the comparison centre.
+primary_tables.csv,focal_pre,int64,Focal-band count before the comparison centre.
+primary_tables.csv,season,object,Spring or autumn statutory clock transition.
+primary_tables.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+primary_tables.csv,year,int64,Policy-transition year associated with the comparison calendar.
+reference_holiday.csv.gz,band,object,"Focal, reference, whole-day, or control clock band."
+reference_holiday.csv.gz,endpoint,object,Crash outcome definition.
+reference_holiday.csv.gz,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+reference_holiday.csv.gz,geo,object,Geographic analysis definition used by the corresponding specification.
+reference_holiday.csv.gz,period,object,Before or after period within a comparison centre.
+reference_holiday.csv.gz,season,object,Spring or autumn statutory clock transition.
+reference_holiday.csv.gz,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+reference_holiday.csv.gz,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+reference_holiday.csv.gz,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/alaska_counts.csv.gz,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/alaska_counts.csv.gz,endpoint,object,Crash outcome definition.
+sensitivity/alaska_counts.csv.gz,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/alaska_counts.csv.gz,geo,object,Alaska aggregate-count geography used only for the inclusion sensitivity.
+sensitivity/alaska_counts.csv.gz,period,object,Before or after period within a comparison centre.
+sensitivity/alaska_counts.csv.gz,season,object,Spring or autumn statutory clock transition.
+sensitivity/alaska_counts.csv.gz,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/alaska_counts.csv.gz,slot_minutes,int64,Duration of the clock interval represented by the cell.
+sensitivity/alaska_counts.csv.gz,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/alaska_counts.csv.gz,window_days,int64,Number of calendar days in the before or after period.
+sensitivity/alaska_counts.csv.gz,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/calendar_counts_long_21d_gap35.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/calendar_counts_long_21d_gap35.csv,endpoint,object,Crash outcome definition.
+sensitivity/calendar_counts_long_21d_gap35.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/calendar_counts_long_21d_gap35.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/calendar_counts_long_21d_gap35.csv,period,object,Before or after period within a comparison centre.
+sensitivity/calendar_counts_long_21d_gap35.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/calendar_counts_long_21d_gap35.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/calendar_counts_long_21d_gap35.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/calendar_counts_long_21d_gap35.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/calendar_counts_matched_14d_gap35.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/calendar_counts_matched_14d_gap35.csv,endpoint,object,Crash outcome definition.
+sensitivity/calendar_counts_matched_14d_gap35.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/calendar_counts_matched_14d_gap35.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/calendar_counts_matched_14d_gap35.csv,period,object,Before or after period within a comparison centre.
+sensitivity/calendar_counts_matched_14d_gap35.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/calendar_counts_matched_14d_gap35.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/calendar_counts_matched_14d_gap35.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/calendar_counts_matched_14d_gap35.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/calendar_counts_nonoverlap_14d_gap42.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/calendar_counts_nonoverlap_14d_gap42.csv,endpoint,object,Crash outcome definition.
+sensitivity/calendar_counts_nonoverlap_14d_gap42.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/calendar_counts_nonoverlap_14d_gap42.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/calendar_counts_nonoverlap_14d_gap42.csv,period,object,Before or after period within a comparison centre.
+sensitivity/calendar_counts_nonoverlap_14d_gap42.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/calendar_counts_nonoverlap_14d_gap42.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/calendar_counts_nonoverlap_14d_gap42.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/calendar_counts_nonoverlap_14d_gap42.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/calendar_counts_short_7d_gap35.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/calendar_counts_short_7d_gap35.csv,endpoint,object,Crash outcome definition.
+sensitivity/calendar_counts_short_7d_gap35.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/calendar_counts_short_7d_gap35.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/calendar_counts_short_7d_gap35.csv,period,object,Before or after period within a comparison centre.
+sensitivity/calendar_counts_short_7d_gap35.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/calendar_counts_short_7d_gap35.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/calendar_counts_short_7d_gap35.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/calendar_counts_short_7d_gap35.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/calendar_ledger.csv,days,int64,Number of included dates.
+sensitivity/calendar_ledger.csv,end,object,"Last included calendar date, inclusive."
+sensitivity/calendar_ledger.csv,period,object,Before or after period within a comparison centre.
+sensitivity/calendar_ledger.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/calendar_ledger.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/calendar_ledger.csv,spec,object,Calendar or exposure-assignment sensitivity name.
+sensitivity/calendar_ledger.csv,start,object,"First included calendar date, inclusive."
+sensitivity/calendar_ledger.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/clock_shift.csv.gz,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/clock_shift.csv.gz,clock_shift_minutes,int64,Deterministic displacement applied to every recorded civil-clock time in a timing sensitivity.
+sensitivity/clock_shift.csv.gz,endpoint,object,Crash outcome definition.
+sensitivity/clock_shift.csv.gz,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/clock_shift.csv.gz,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/clock_shift.csv.gz,period,object,Before or after period within a comparison centre.
+sensitivity/clock_shift.csv.gz,season,object,Spring or autumn statutory clock transition.
+sensitivity/clock_shift.csv.gz,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/clock_shift.csv.gz,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/clock_shift.csv.gz,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/counts_grid_1deg.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/counts_grid_1deg.csv,endpoint,object,Crash outcome definition.
+sensitivity/counts_grid_1deg.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/counts_grid_1deg.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/counts_grid_1deg.csv,period,object,Before or after period within a comparison centre.
+sensitivity/counts_grid_1deg.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/counts_grid_1deg.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/counts_grid_1deg.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/counts_grid_1deg.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/counts_grid_2deg.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/counts_grid_2deg.csv,endpoint,object,Crash outcome definition.
+sensitivity/counts_grid_2deg.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/counts_grid_2deg.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/counts_grid_2deg.csv,period,object,Before or after period within a comparison centre.
+sensitivity/counts_grid_2deg.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/counts_grid_2deg.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/counts_grid_2deg.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/counts_grid_2deg.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/counts_placebo_+70.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/counts_placebo_+70.csv,endpoint,object,Crash outcome definition.
+sensitivity/counts_placebo_+70.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/counts_placebo_+70.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/counts_placebo_+70.csv,period,object,Before or after period within a comparison centre.
+sensitivity/counts_placebo_+70.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/counts_placebo_+70.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/counts_placebo_+70.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/counts_placebo_+70.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/counts_placebo_-70.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/counts_placebo_-70.csv,endpoint,object,Crash outcome definition.
+sensitivity/counts_placebo_-70.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/counts_placebo_-70.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/counts_placebo_-70.csv,period,object,Before or after period within a comparison centre.
+sensitivity/counts_placebo_-70.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/counts_placebo_-70.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/counts_placebo_-70.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/counts_placebo_-70.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/dynamic_counts_week_+0.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/dynamic_counts_week_+0.csv,endpoint,object,Crash outcome definition.
+sensitivity/dynamic_counts_week_+0.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/dynamic_counts_week_+0.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/dynamic_counts_week_+0.csv,period,object,Before or after period within a comparison centre.
+sensitivity/dynamic_counts_week_+0.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/dynamic_counts_week_+0.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/dynamic_counts_week_+0.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/dynamic_counts_week_+0.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/dynamic_counts_week_+1.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/dynamic_counts_week_+1.csv,endpoint,object,Crash outcome definition.
+sensitivity/dynamic_counts_week_+1.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/dynamic_counts_week_+1.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/dynamic_counts_week_+1.csv,period,object,Before or after period within a comparison centre.
+sensitivity/dynamic_counts_week_+1.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/dynamic_counts_week_+1.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/dynamic_counts_week_+1.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/dynamic_counts_week_+1.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/dynamic_counts_week_+2.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/dynamic_counts_week_+2.csv,endpoint,object,Crash outcome definition.
+sensitivity/dynamic_counts_week_+2.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/dynamic_counts_week_+2.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/dynamic_counts_week_+2.csv,period,object,Before or after period within a comparison centre.
+sensitivity/dynamic_counts_week_+2.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/dynamic_counts_week_+2.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/dynamic_counts_week_+2.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/dynamic_counts_week_+2.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/dynamic_counts_week_+3.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/dynamic_counts_week_+3.csv,endpoint,object,Crash outcome definition.
+sensitivity/dynamic_counts_week_+3.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/dynamic_counts_week_+3.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/dynamic_counts_week_+3.csv,period,object,Before or after period within a comparison centre.
+sensitivity/dynamic_counts_week_+3.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/dynamic_counts_week_+3.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/dynamic_counts_week_+3.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/dynamic_counts_week_+3.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/dynamic_counts_week_-1.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/dynamic_counts_week_-1.csv,endpoint,object,Crash outcome definition.
+sensitivity/dynamic_counts_week_-1.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/dynamic_counts_week_-1.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/dynamic_counts_week_-1.csv,period,object,Before or after period within a comparison centre.
+sensitivity/dynamic_counts_week_-1.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/dynamic_counts_week_-1.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/dynamic_counts_week_-1.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/dynamic_counts_week_-1.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/dynamic_counts_week_-4.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/dynamic_counts_week_-4.csv,endpoint,object,Crash outcome definition.
+sensitivity/dynamic_counts_week_-4.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/dynamic_counts_week_-4.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/dynamic_counts_week_-4.csv,period,object,Before or after period within a comparison centre.
+sensitivity/dynamic_counts_week_-4.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/dynamic_counts_week_-4.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/dynamic_counts_week_-4.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/dynamic_counts_week_-4.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/legacy_weeks.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/legacy_weeks.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/legacy_weeks.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/legacy_weeks.csv,week,int64,Relative event week; the omitted reference depends on the specific dynamic design.
+sensitivity/legacy_weeks.csv,year,int64,Policy-transition year associated with the comparison calendar.
+sensitivity/original_reconstructed_counts.csv,band,object,"Focal, reference, whole-day, or control clock band."
+sensitivity/original_reconstructed_counts.csv,endpoint,object,Crash outcome definition.
+sensitivity/original_reconstructed_counts.csv,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+sensitivity/original_reconstructed_counts.csv,geo,object,Geographic analysis definition used by the corresponding specification.
+sensitivity/original_reconstructed_counts.csv,period,object,Before or after period within a comparison centre.
+sensitivity/original_reconstructed_counts.csv,season,object,Spring or autumn statutory clock transition.
+sensitivity/original_reconstructed_counts.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+sensitivity/original_reconstructed_counts.csv,width_minutes,int64,Duration of the focal and reference clock bands in minutes.
+sensitivity/original_reconstructed_counts.csv,year,int64,Policy-transition year associated with the comparison calendar.
+states.csv.gz,band,object,"Focal, reference, whole-day, or control clock band."
+states.csv.gz,endpoint,object,Crash outcome definition.
+states.csv.gz,events,int64,Zero-inclusive crash count in the indexed aggregate cell.
+states.csv.gz,period,object,Before or after period within a comparison centre.
+states.csv.gz,season,object,Spring or autumn statutory clock transition.
+states.csv.gz,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+states.csv.gz,state,int64,FARS jurisdiction code used as the fixed geographic unit.
+states.csv.gz,year,int64,Policy-transition year associated with the comparison calendar.
+support/alaska_inclusion_reference.csv,band,object,Evening or morning focal band.
+support/alaska_inclusion_reference.csv,endpoint,object,Crash outcome or direct pedestrian-versus-other contrast.
+support/alaska_inclusion_reference.csv,geo,object,"Geographic specification: original contiguous-US target, Alaska alone, or pooled target plus Alaska."
+support/alaska_inclusion_reference.csv,high,float64,Upper pointwise 95% confidence limit.
+support/alaska_inclusion_reference.csv,informative_strata,float64,Number of informative year-season-centre tables.
+support/alaska_inclusion_reference.csv,low,float64,Lower pointwise 95% confidence limit.
+support/alaska_inclusion_reference.csv,ratio,float64,Estimated ratio of count ratios.
+support/alaska_inclusion_reference.csv,raw_strata,float64,Number of candidate year-season-centre tables before information filtering.
+support/alaska_inclusion_reference.csv,status,object,Whether the standalone or pooled model was estimable under the fixed rank and support rules.
+support/holiday_pairs.csv,keep_no_holiday,bool,Whether both paired dates remain after the holiday rule.
+support/holiday_pairs.csv,post,object,Date paired to the after side of a holiday sensitivity.
+support/holiday_pairs.csv,post_is_excluded,bool,Whether the after date belongs to the exclusion set.
+support/holiday_pairs.csv,pre,object,Date paired to the before side of a holiday sensitivity.
+support/holiday_pairs.csv,pre_is_excluded,bool,Whether the before date belongs to the exclusion set.
+support/holiday_pairs.csv,season,object,Spring or autumn statutory clock transition.
+support/holiday_pairs.csv,sham,int64,"Comparison-centre offset in days: -35, 0 (real transition), or +35 unless a sensitivity file states otherwise."
+support/holiday_pairs.csv,weekday,int64,Weekday shared by the paired before and after dates.
+support/holiday_pairs.csv,year,int64,Policy-transition year associated with the comparison calendar.
+support/model_support.csv,band,object,"Focal, reference, whole-day, or control clock band."
+support/model_support.csv,endpoint,object,Crash outcome definition.
+support/model_support.csv,event_appearances,int64,"Number of aggregate appearances, including reuse across overlapping calendars."
+support/model_support.csv,extra_appearances_due_to_reuse,int64,Event appearances minus distinct crashes.
+support/model_support.csv,informative_tables,int64,Number of tables that contain information for the fixed-margin comparison.
+support/model_support.csv,total_tables,int64,Number of candidate comparison tables.
+support/model_support.csv,unique_at_real_center,int64,Distinct crashes represented at the real transition centre.
+support/model_support.csv,unique_crashes_all_centers,int64,Number of distinct crashes represented across all real and sham centres.
+support/model_support.csv,unique_focal_all_centers,int64,Distinct focal-band crashes across all centres.
+support/model_support.csv,unique_reference_all_centers,int64,Distinct reference-band crashes across all centres.
+support/model_support.csv,year_clusters,int64,Number of policy-transition-year clusters used for uncertainty.
+support/model_support.csv,zero_cells,int64,Number of zero-count cells before information filtering.
+support/solar_grid.csv,above_apparent_horizon,int64,Share of evaluated minutes above the apparent sunrise/sunset horizon.
+support/solar_grid.csv,band,object,"Focal, reference, whole-day, or control clock band."
+support/solar_grid.csv,below_civil_twilight,int64,Share of evaluated minutes below -6 degrees solar altitude.
+support/solar_grid.csv,between_horizon_and_minus6,int64,Share of evaluated minutes between the apparent horizon and -6 degrees solar altitude.
+support/solar_grid.csv,latitude,float64,Latitude of an artificial fixed-grid support point; not an incident coordinate.
+support/solar_grid.csv,n_minute_points,int64,Number of minute-level solar-status evaluations in the fixed grid cell.
+support/solar_grid.csv,period,object,Before or after period within a comparison centre.
+support/solar_grid.csv,season,object,Spring or autumn statutory clock transition.
+support/source_flow.csv,n,int64,Number of source crash records remaining at the stage.
+support/source_flow.csv,step,object,Named source-selection stage.
+traffic.csv,band,object,"Focal, reference, whole-day, or control clock band."
+traffic.csv,log_2019,float64,Natural logarithm of the within-2019 post/pre traffic contrast.
+traffic.csv,log_2020,float64,Natural logarithm of the within-2020 post/pre traffic contrast.
+traffic.csv,metric,object,Traffic contrast definition.
+traffic.csv,n_sites,int64,Number of matched traffic-counter sites in the jurisdiction.
+traffic.csv,shock_log_ratio_2020_vs_2019,float64,Difference between the 2020 and 2019 log post/pre traffic contrasts.
+traffic.csv,shock_ratio_2020_vs_2019,float64,Exponentiated 2020-versus-2019 ratio of post/pre traffic changes.
+traffic.csv,state,int64,FARS jurisdiction code used as the fixed geographic unit.

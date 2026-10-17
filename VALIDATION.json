@@ -1,0 +1,117 @@
+{
+  "validated_on": "2026-10-15",
+  "public_release_status": "published",
+  "R": {
+    "version": "4.5.1",
+    "tests_passed": true,
+    "source_files_parsed": 23,
+    "estimate_tables": 33,
+    "manuscript_tables": 2,
+    "figure_outputs": 10
+  },
+  "Python": {
+    "version": "3.13.9",
+    "pytest_tests": 25,
+    "tests_passed": true,
+    "ruff_passed": true,
+    "estimate_tables": 33,
+    "manuscript_tables": 2,
+    "figure_outputs": 10
+  },
+  "cross_language": {
+    "passed": true,
+    "files_compared": 33,
+    "rows_compared": 2222,
+    "maximum_absolute_difference": 1.1422145007600193e-07
+  },
+  "main_results": {
+    "pedestrian_evening": {
+      "ratio": 0.154820150931551,
+      "low": 0.083738121164157,
+      "high": 0.2862409473873887
+    },
+    "pedestrian_morning": {
+      "ratio": 0.2036517905727593,
+      "low": 0.0848234747437616,
+      "high": 0.4889454473396378
+    },
+    "pedestrian_vs_other_evening": {
+      "ratio": 0.2122665576459309,
+      "low": 0.1157888890595133,
+      "high": 0.389131391283103
+    },
+    "pedestrian_vs_other_morning": {
+      "ratio": 0.2137842137319834,
+      "low": 0.082607638503094,
+      "high": 0.5532622753680413
+    }
+  },
+  "five_center_quadratic": {
+    "pedestrian_evening": {
+      "ratio": 0.1442890496571807,
+      "low": 0.0759203749715822,
+      "high": 0.2742258564814155,
+      "quadratic_p_value": 0.6909741014327953
+    },
+    "pedestrian_morning": {
+      "ratio": 0.1911307037054618,
+      "low": 0.0801090227912788,
+      "high": 0.4560153728765996,
+      "quadratic_p_value": 0.0890830958568038
+    }
+  },
+  "exact_policy_year_multiplier": {
+    "pedestrian_evening": {
+      "ratio": 0.154820150931551,
+      "wild_low": 0.0823684617818686,
+      "wild_high": 0.2910006890494644,
+      "wild_p_value": 1.4424324035644531e-05,
+      "wild_critical_95": 2.124169111251831
+    },
+    "pedestrian_vs_other_evening": {
+      "ratio": 0.2122665576459309,
+      "wild_low": 0.1139676812650395,
+      "wild_high": 0.3953497254197003,
+      "wild_p_value": 7.510185241699219e-05,
+      "wild_critical_95": 2.122769594192505
+    },
+    "pedestrian_morning": {
+      "ratio": 0.2036517905727593,
+      "wild_low": 0.0831796657648278,
+      "wild_high": 0.4986080603010569,
+      "wild_p_value": 0.0011721849441528,
+      "wild_critical_95": 2.1148788928985596
+    },
+    "pedestrian_vs_other_morning": {
+      "ratio": 0.2137842137319834,
+      "wild_low": 0.0807486999079618,
+      "wild_high": 0.5659990822526666,
+      "wild_p_value": 0.0034568309783935,
+      "wild_critical_95": 2.118173837661743
+    }
+  },
+  "release": "1.0.0",
+  "released_on": "2026-10-17",
+  "alaska_inclusion": {
+    "pedestrian_evening": {
+      "ratio": 0.15376991672653306,
+      "low": 0.08306226632990293,
+      "high": 0.2846682174089981
+    },
+    "pedestrian_morning": {
+      "ratio": 0.20631298501087056,
+      "low": 0.08628546957324534,
+      "high": 0.49330493296977906
+    },
+    "pedestrian_vs_other_evening": {
+      "ratio": 0.21066059781917135,
+      "low": 0.11468346891942759,
+      "high": 0.38695975881850014
+    },
+    "pedestrian_vs_other_morning": {
+      "ratio": 0.21636907382020598,
+      "low": 0.08341785278422685,
+      "high": 0.5612177075201092
+    }
+  }
+}

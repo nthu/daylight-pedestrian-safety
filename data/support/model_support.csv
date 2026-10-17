@@ -1,0 +1,7 @@
+band,endpoint,unique_crashes_all_centers,event_appearances,extra_appearances_due_to_reuse,unique_at_real_center,unique_focal_all_centers,unique_reference_all_centers,informative_tables,total_tables,zero_cells,year_clusters
+evening,fatal_pedestrian_crashes,4339,5214,875,1760,3060,1279,143,144,13,24
+evening,other_fatal_crashes,14847,17827,2980,5997,8590,6257,144,144,0,24
+evening,all_fatal_crashes,19693,23625,3932,7942,12023,7670,144,144,0,24
+morning,fatal_pedestrian_crashes,2665,3202,537,1128,1377,1288,144,144,17,24
+morning,other_fatal_crashes,11986,14404,2418,4959,5729,6257,144,144,0,24
+morning,all_fatal_crashes,14942,17947,3005,6193,7272,7670,144,144,0,24

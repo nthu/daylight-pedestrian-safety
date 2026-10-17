@@ -1,0 +1,6 @@
+dataset,provider,access,url,shared_here,note
+FARS,National Highway Traffic Safety Administration,"Public-use annual files, 2001-2024",https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars,Study-specific national, state and Alaska-sensitivity aggregate counts,Provider files are not redistributed.
+Mississippi crash registry,Mississippi Department of Public Safety,ReportBeam and eCrash public-release archives,https://publicdata.dps.ms.gov/Public-CrashData/,County-window-outcome aggregate counts,No event-level registry records are redistributed.
+Traffic counts,Federal Highway Administration,Public TMAS traffic-count archives,https://www.fhwa.dot.gov/policyinformation/tables/tmasdata/,Jurisdiction-level log contrasts and matched-site support,Raw lane and station panels remain with FHWA.
+County geography,US Census Bureau,2023 Mississippi county Gazetteer,https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_gaz_counties_28.txt,Derived fixed-county exposure definitions,Public Gazetteer source is cited.
+Weather coverage,NOAA National Centers for Environmental Information,Global Hourly / Integrated Surface Database,https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database,Coverage diagnostics only,Raw station observations are not redistributed.

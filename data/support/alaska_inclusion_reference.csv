@@ -1,0 +1,23 @@
+geo,endpoint,band,status,ratio,low,high,informative_strata,raw_strata
+DST_main,fatal_pedestrian_crashes,evening,fit,0.154820150931551,0.083738121164157,0.2862409473873887,143.0,144.0
+DST_main,fatal_pedestrian_crashes,morning,fit,0.2036517905727593,0.0848234747437617,0.4889454473396377,144.0,144.0
+DST_main,other_fatal_crashes,evening,fit,0.729366663541024,0.5492073690738256,0.9686245302609112,144.0,144.0
+DST_main,other_fatal_crashes,morning,fit,0.952604437051994,0.6688494955763009,1.3567405215866324,144.0,144.0
+DST_main,all_fatal_crashes,evening,fit,0.5252248026559121,0.399341756008998,0.6907895034115241,144.0,144.0
+DST_main,all_fatal_crashes,morning,fit,0.7087430996398164,0.518403964688046,0.9689678619439728,144.0,144.0
+DST_main_plus_Alaska,fatal_pedestrian_crashes,evening,fit,0.153769916726533,0.0830622663299029,0.2846682174089981,143.0,144.0
+DST_main_plus_Alaska,fatal_pedestrian_crashes,morning,fit,0.2063129850108705,0.0862854695732453,0.4933049329697788,144.0,144.0
+DST_main_plus_Alaska,other_fatal_crashes,evening,fit,0.7299415188146736,0.549421045686886,0.9697746838644448,144.0,144.0
+DST_main_plus_Alaska,other_fatal_crashes,morning,fit,0.9535234466193094,0.669444661804781,1.358151039402722,144.0,144.0
+DST_main_plus_Alaska,all_fatal_crashes,evening,fit,0.525574995597375,0.3998387153842238,0.6908512491886615,144.0,144.0
+DST_main_plus_Alaska,all_fatal_crashes,morning,fit,0.7094602634976711,0.5199949328863012,0.967959173541102,144.0,144.0
+Alaska,fatal_pedestrian_crashes,evening,unsupported: ValueError: Insufficient informative strata,,,,,
+Alaska,fatal_pedestrian_crashes,morning,unsupported: ValueError: Insufficient informative strata,,,,,
+Alaska,other_fatal_crashes,evening,unsupported: ValueError: Insufficient informative strata,,,,,
+Alaska,other_fatal_crashes,morning,unsupported: ValueError: Insufficient informative strata,,,,,
+Alaska,all_fatal_crashes,evening,unsupported: ValueError: Insufficient informative strata,,,,,
+Alaska,all_fatal_crashes,morning,unsupported: ValueError: Insufficient informative strata,,,,,
+DST_main,direct,evening,fit,0.2122665576459309,0.1157888890595133,0.389131391283103,,
+DST_main,direct,morning,fit,0.2137842137319834,0.082607638503094,0.5532622753680412,,
+DST_main_plus_Alaska,direct,evening,fit,0.2106605978191713,0.1146834689194275,0.3869597588185001,,
+DST_main_plus_Alaska,direct,morning,fit,0.2163690738202059,0.0834178527842268,0.5612177075201089,,

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the associated article and this repository."
+title: "Daylight reallocation and pedestrian safety"
+type: software
+authors:
+  - family-names: Zha
+    given-names: Qunwu
+    orcid: "https://orcid.org/0000-0003-1816-9552"
+repository-code: "https://github.com/nthu/daylight-pedestrian-safety"
+url: "https://github.com/nthu/daylight-pedestrian-safety"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-17
